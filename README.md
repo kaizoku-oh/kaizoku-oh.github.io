@@ -1,5 +1,3 @@
-# Coming soon...
-
 # Bayrem GHARSELLAOUI
 Welcome to my personal portfolio! I’m a Firmware Engineer in Tunisia with over 5 years of experince in the feild.
 
