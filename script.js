@@ -21,3 +21,21 @@ window.addEventListener('DOMContentLoaded', () => {
         document.body.classList.add('dark-mode');
     }
 });
+
+// Apply Material Design-inspired shadow effect to elements on page load
+window.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        section.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
+        section.style.borderRadius = '8px';
+        section.style.padding = '16px';
+        section.style.backgroundColor = 'white';
+    });
+
+    if (document.body.classList.contains('dark-mode')) {
+        sections.forEach(section => {
+            section.style.backgroundColor = '#1e1e1e';
+            section.style.color = '#e0e0e0';
+        });
+    }
+});
